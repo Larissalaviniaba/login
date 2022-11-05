@@ -1,0 +1,151 @@
+@import url(./font.css);
+@import url(./paleta.css);
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+.hidden{
+    display: none;
+}
+
+.card__container{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title__h2{
+    width: 100%;
+    height: 2.3rem;
+
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: var(--black);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login__subtitle{
+    width: 100%;
+    height: 2.5rem;
+
+    font-weight: 400;
+    font-size: 0.8rem;
+    text-align: center;
+    color: var(--grey2);
+}
+
+/* Buttons */
+button, a{
+    all: unset;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+}
+
+.button__selected{
+    color: var(--white);
+    background: var(--purple0);
+    border: 1px solid var(--purple0);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 8px 0px 0px 8px;
+}
+
+.login__group-buttons{
+    all: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 1.7rem;
+}
+
+.button__email{
+    cursor: pointer;
+    width: 9.3rem;
+    height: 2.6rem;
+
+    border: 1px solid var(--purple0);
+    filter: drop-shadow(0px 8px 20px rgba(0, 0, 0, 0.08));
+    border-radius: 8px 0px 0px 8px;
+    text-align: center;
+}
+
+.button__number{
+    cursor: pointer;
+    width: 9.3rem;
+    height: 2.6rem;
+
+    border: 1px solid var(--black);
+    filter: drop-shadow(0px 8px 20px rgba(0, 0, 0, 0.08));
+    border-radius: 0px 8px 8px 0px;
+    text-align: center;
+}
+
+.login__group-buttons > button:hover{
+    box-shadow: 10px 10px 20px 5px rgba(88, 11, 67, 0.08);
+}
+
+.login__button__submit{
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    width: 20rem;
+    height: 3rem;
+
+    background: #190152;
+    border-radius: 8px;
+    margin: auto;
+    color: var(--white);
+    margin-top: 0.5rem;
+}
+
+.login__button__submit:hover{
+    background: #200363; 
+}
+/* Buttons */
+
+
+/* Inputs */
+.login__group__inputs{
+    display: flex;
+    flex-direction: column; 
+ }
+ 
+input{
+    width: 20rem;
+    height: 2.8rem;
+ 
+    border: 1px solid var(--grey0);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+ 
+    margin-bottom: 0.7rem;
+    padding-left: 1rem;
+}
+/* Inputs */
+
+.login__restore > a{
+    all: unset;
+    display: flex;
+    justify-content: end;
+
+    color: var(--blue);
+    font-size: 0.7rem;
+    margin-bottom: 2rem;
+}
+

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <div class="card__container">
+        <h2 class="title__h2">
+            Login Account
+            <img class="title__icon" src="./assets/User.png" alt="icone usuário" />
+        </h2>
+
+      <p class="login__subtitle">Hello , welcome back to our account !</p>
+
+      <div class="login__group-buttons">
+        <button class="button__email button__selected">E-mail</button>
+        <button class="button__number">Phone Number</button>
+      </div>
+
+      <form class="form__login">
+        <div class="login__group__inputs">
+          <input class="" type="text" placeholder="Email address" />
+          <input type="text" placeholder="Password" />
+        </div>
+        <span class="login__restore"><a href="#">Forgot Password ?</a></span>
+        <button class="login__button__submit">Login</button>
+      </form>
+
+      <form class="form__send-otp hidden">
+        <div class="login__group__inputs">
+          <input class="" type="text" placeholder="Enter Phone Number" />
+        </div>
+        <button class="login__button__submit">Send OTP</button>
+      </form>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
